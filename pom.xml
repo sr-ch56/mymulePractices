@@ -32,7 +32,8 @@
 				<extensions>true</extensions>
 				<configuration>
 				 <cloudHubDeployment>
-						<server>my.anypoint.credentials</server>
+						<username>santhosh_ofm</username>
+						<password>Jessy789$</password>
 						<environment>${environment}</environment>
 						<applicationName>${application.name}</applicationName>
 						<muleVersion>${mule.version}</muleVersion>
