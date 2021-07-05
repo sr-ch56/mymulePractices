@@ -31,6 +31,16 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				 <cloudHubDeployment>
+						<server>my.anypoint.credentials</server>
+						<environment>${environment}</environment>
+						<applicationName>${application.name}</applicationName>
+						<muleVersion>${mule.version}</muleVersion>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<objectStoreV2>true</objectStoreV2>
+					
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
